@@ -1,0 +1,10 @@
+.main-page-centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #331832;
+}
+
+.main-page-centered-text h1, h3 {
+  color: white;
+}
