@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -28,6 +28,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    font-family: "Rubik"
 }
 
 /* Custom Button Styles */
@@ -178,14 +179,40 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    height: 333px;
+    width: 500px;
+    background-color:  #1b152e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+.portfolio-link {
+  color: #fff;
+  font-size: 4em;
+  font-family: "Rubik"
 }
 
 .img-portfolio {
+  /*position: absolute;*/
     margin: 0 auto;
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    opacity: 0.3;
+}
+
+.text-portfolio {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  /*color: transparent;*/
+  font-size: 2em;
+}
+
+.text-portfolio:hover {
+  color: black;
 }
 
 /* Footer */
