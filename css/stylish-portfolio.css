@@ -16,6 +16,16 @@ body {
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a {
+  color: #1b152e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #513f8b;
+  text-decoration: none;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -178,21 +188,33 @@ hr.small {
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
-    height: 333px;
-    width: 500px;
-    background-color:  #1b152e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 333px;
+  background-color:  #1b152e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
 }
 
-.portfolio-link {
-  color: #fff;
-  font-size: 4em;
-  font-family: "Rubik"
+.portfolio-item:hover {
+  opacity: 0.8;
 }
+
+a.portfolio-link {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 4em;
+  font-family: "Rubik";
+}
+
+/*a.portfolio-link:hover {
+  text-decoration: none;
+  color: #fff;
+}*/
 
 .img-portfolio {
   /*position: absolute;*/
